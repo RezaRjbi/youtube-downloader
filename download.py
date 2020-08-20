@@ -49,5 +49,5 @@ def yt_download(pagelink, quality):
     except:
         return None
     else:
-        with open(f"yt-vide.{ext}", "wb") as output:
+        with open(f"yt-video.{ext}", "wb") as output:
             output.write(res.content)
