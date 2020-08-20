@@ -38,3 +38,4 @@ def help(update, context):
     msg = "/apt_dl [link]\n\n/yt_dl [link] [quality]\n\n -don't be a fuckin' idiot and don't use [  ]"
     user_id = update.message.chat.id
     context.bot.send_message(chat_id=user_id, text=msg)
+
