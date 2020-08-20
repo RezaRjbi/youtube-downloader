@@ -3,7 +3,8 @@ from telegram.ext import Updater
 from glob import glob
 import os
 
-updater = Updater("1290917968:AAHR9D-lcdyP2KrALcdH2mtPD6cSNRxIJzQ", use_context=True)
+token = ""  # your token from @botfather
+updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 
 

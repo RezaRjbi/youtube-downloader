@@ -12,4 +12,7 @@ as an argument (default quality is 144p) and it will download the video as fast 
 
 <strong>Note: all arguments must be string object</strong>
 
+in new version you can run this project and use it as an telegram
+api bot. in order to that just put all files in same directory and just run bot.py directly.
+
 good luck.
